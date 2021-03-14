@@ -29,7 +29,9 @@ http://localhost:8080/swagger-ui.html#
 ```
 4- Run each project with the command mvn spring-boot:run, you must run in first place eureka-service, afterwards run the remaining services.
 
-Before you move on, go ahead and explore the repository. You've already seen the **Source** page, but check out the **Commits**, **Branches**, and **Settings** pages.
-
+5- IMPORTANT. Add the encoders to the database
+```
+bd/codificadores.sql
+```
 ---
 
